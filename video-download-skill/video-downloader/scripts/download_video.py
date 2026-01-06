@@ -90,13 +90,13 @@ def download_video(url, output_path="/mnt/user-data/outputs", quality="best", fo
         
         # Download the video
         subprocess.run(cmd, check=True)
-        print(f"\n✅ Download complete!")
+        print(f"\nDownload complete!")
         return True
     except subprocess.CalledProcessError as e:
-        print(f"\n❌ Error downloading video: {e}")
+        print(f"\nError downloading video: {e}")
         return False
     except Exception as e:
-        print(f"\n❌ Error: {e}")
+        print(f"\nError: {e}")
         return False
 
 
