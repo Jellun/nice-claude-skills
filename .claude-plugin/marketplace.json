@@ -1,0 +1,24 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "nice-claude-skills",
+  "owner": {
+    "name": "Jellun",
+    "email": "jellun@hotmail.com"
+  },
+  "metadata": {
+    "description": "Some nice Claude Skills for Claude AI workflows",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "the-very-nice-skills",
+      "description": "Downloads videos from YouTube and other platforms for offline viewing, editing, or archival with support for various formats and quality options.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./the-very-nice-skills/video-downloader"
+      ],
+      "category": "creative-media"
+    }
+  ]
+}
