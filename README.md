@@ -10,7 +10,11 @@ Register the Marketplace
 Install Skills
 
 Open Claude Code
+
 Select Browse and install plugins
+
 Choose nice-claude-skills
+
 Select the-very-nice-skills
+
 Click Install now
