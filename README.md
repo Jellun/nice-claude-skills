@@ -15,6 +15,6 @@ Select Browse and install plugins
 
 Choose nice-claude-skills
 
-Select the-very-nice-skills
+Select video-download-skill
 
 Click Install now
