@@ -9,11 +9,14 @@ import sys
 import subprocess
 import json
 import io
+import os
 
 # Force UTF-8 encoding for stdout/stderr on Windows
 if sys.platform == 'win32':
     sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8', errors='replace')
     sys.stderr = io.TextIOWrapper(sys.stderr.buffer, encoding='utf-8', errors='replace')
+    # Enable UTF-8 mode for subprocesses (including yt-dlp)
+    os.environ['PYTHONUTF8'] = '1'
 
 def check_yt_dlp():
     """Check if yt-dlp is installed, install if not."""
