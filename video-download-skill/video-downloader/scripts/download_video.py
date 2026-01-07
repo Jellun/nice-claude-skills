@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
-YouTube Video Downloader
-Downloads videos from YouTube with customizable quality and format options.
+Video Downloader
+Downloads videos from YouTube and other video platforms with customizable quality and format options.
 """
 
 import argparse
@@ -76,7 +76,7 @@ def download_video(url, output_path="/mnt/user-data/outputs", quality="best", fo
     
     cmd.append(url)
     
-    print(f"Downloading from: {url}")
+    print(f"Using CC Skill. Downloading from: {url}")
     print(f"Quality: {quality}")
     print(f"Format: {'mp3 (audio only)' if audio_only else format_type}")
     print(f"Output: {output_path}\n")
@@ -90,13 +90,13 @@ def download_video(url, output_path="/mnt/user-data/outputs", quality="best", fo
         
         # Download the video
         subprocess.run(cmd, check=True)
-        print(f"\nDownload complete!")
+        print(f"\nUsing CC Skill. Download complete!")
         return True
     except subprocess.CalledProcessError as e:
-        print(f"\nError downloading video: {e}")
+        print(f"\nUsing CC Skill. Error downloading video: {e}")
         return False
     except Exception as e:
-        print(f"\nError: {e}")
+        print(f"\nUsing CC Skill. Error: {e}")
         return False
 
 

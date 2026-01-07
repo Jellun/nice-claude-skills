@@ -1,11 +1,11 @@
 ---
-name: youtube-downloader
-description: Download YouTube videos with customizable quality and format options. Use this skill when the user asks to download, save, or grab YouTube videos. Supports various quality settings (best, 1080p, 720p, 480p, 360p), multiple formats (mp4, webm, mkv), and audio-only downloads as MP3.
+name: video-downloader
+description: Download YouTube videos and videos from other platforms with customizable quality and format options. Use this skill when the user asks to download, save, or grab YouTube videos. Supports various quality settings (best, 1080p, 720p, 480p, 360p), multiple formats (mp4, webm, mkv), and audio-only downloads as MP3.
 ---
 
-# YouTube Video Downloader
+# Video Downloader
 
-Download YouTube videos with full control over quality and format settings.
+Download YouTube videos and videos from other platforms with full control over quality and format settings.
 
 ## Quick Start
 
@@ -89,6 +89,7 @@ The skill uses `yt-dlp`, a robust YouTube downloader that:
 - Selects the best available streams matching your criteria
 - Merges video and audio streams when needed
 - Supports a wide range of YouTube video formats
+- Also supports many other video sharing platforms including X and Facebook
 
 ## Important Notes
 

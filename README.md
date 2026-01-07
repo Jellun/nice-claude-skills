@@ -1,13 +1,13 @@
 # nice-claude-skills
 Some nice Claude Skills for Claude AI workflows
 
-A forked version from ComposioHQ - awesome-claude-skills for personal study purpose
+Based on a forked and trimed version from ComposioHQ - awesome-claude-skills for personal study purposes
 
-Register the Marketplace
+## Register the Marketplace
 
 /plugin marketplace add Jellun/nice-claude-skills
 
-Install Skills
+## Install Skills
 
 Open Claude Code
 
